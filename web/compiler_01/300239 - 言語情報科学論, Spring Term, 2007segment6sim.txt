@@ -1,0 +1,6 @@
+0.03697526390303066	300239 - 言語情報科学論, Spring Term, 2007/lecturenoteno-1 segment1
+0.2656395744009769	300239 - 言語情報科学論, Spring Term, 2007/lecturenoteno-1 segment2
+0.03695480957310713	300239 - 言語情報科学論, Spring Term, 2007/lecturenoteno-1 segment3
+0.030714588745419737	300239 - 言語情報科学論, Spring Term, 2007/lecturenoteno-1 segment4
+0.09327487447315201	300239 - 言語情報科学論, Spring Term, 2007/lecturenoteno-4 segment5
+0.15209675213971877	300239 - 言語情報科学論, Spring Term, 2007/lecturenoteno-7 segment4

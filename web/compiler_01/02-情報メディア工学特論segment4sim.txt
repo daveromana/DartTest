@@ -1,0 +1,4 @@
+0.11055593548356153	02-情報メディア工学特論/media_engineering_09 segment13
+0.11408379534571593	02-情報メディア工学特論/media_engineering_09 segment15
+0.01386918208274849	02-情報メディア工学特論/media_engineering_09 segment20
+0.023864041567804275	02-情報メディア工学特論/media_engineering_09 segment23

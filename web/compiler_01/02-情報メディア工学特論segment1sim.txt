@@ -1,0 +1,17 @@
+0.02960302480779459	02-情報メディア工学特論/media_engineering_02 segment1
+0.034670098368827944	02-情報メディア工学特論/media_engineering_03 segment1
+0.025933179734788415	02-情報メディア工学特論/media_engineering_04 segment1
+0.07152959443691427	02-情報メディア工学特論/media_engineering_07 segment1
+0.07152959443691427	02-情報メディア工学特論/media_engineering_08 segment1
+0.07210057827630204	02-情報メディア工学特論/media_engineering_09 segment1
+0.004914893835745307	02-情報メディア工学特論/media_engineering_09 segment13
+0.09582420065025543	02-情報メディア工学特論/media_engineering_09 segment27
+0.030166752785716282	02-情報メディア工学特論/media_engineering_10 segment1
+0.07979816013024085	02-情報メディア工学特論/media_engineering_11 segment1
+0.02540605436585096	02-情報メディア工学特論/media_engineering_11 segment2
+0.016462740283614892	02-情報メディア工学特論/media_engineering_11 segment3
+0.034314650606751804	02-情報メディア工学特論/media_engineering_11 segment5
+0.02714413095822021	02-情報メディア工学特論/media_engineering_11 segment7
+0.07979816013024085	02-情報メディア工学特論/media_engineering_12 segment1
+0.026024104044884092	02-情報メディア工学特論/media_engineering_12 segment2
+0.07979816013024085	02-情報メディア工学特論/media_engineering_13 segment1

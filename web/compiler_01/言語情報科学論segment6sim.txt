@@ -1,0 +1,6 @@
+0.03697526390303066	言語情報科学論/lecturenoteno-1 segment1
+0.2656395744009769	言語情報科学論/lecturenoteno-1 segment2
+0.03695480957310713	言語情報科学論/lecturenoteno-1 segment3
+0.030714588745419737	言語情報科学論/lecturenoteno-1 segment4
+0.09327487447315201	言語情報科学論/lecturenoteno-4 segment5
+0.15209675213971877	言語情報科学論/lecturenoteno-7 segment4

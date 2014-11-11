@@ -1,0 +1,6 @@
+0.03471769675164091	331005 - 情報技術と倫理, Spring Term, 2005/lecture-note segment5
+0.02783608425054748	331005 - 情報技術と倫理, Spring Term, 2005/lecture-note segment17
+0.00894157950900931	331005 - 情報技術と倫理, Spring Term, 2005/lecture-note segment18
+0.03936616787048436	331005 - 情報技術と倫理, Spring Term, 2005/lecture-note segment19
+0.00995325430806454	331005 - 情報技術と倫理, Spring Term, 2005/lecture-note segment35
+0.019627086427931827	331005 - 情報技術と倫理, Spring Term, 2005/lecture-note segment52

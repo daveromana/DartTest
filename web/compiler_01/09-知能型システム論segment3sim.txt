@@ -1,0 +1,5 @@
+0.01218677645726552	09-知能型システム論/intelligent-systems08 segment1
+0.03985889860945338	09-知能型システム論/intelligent-systems10 segment4
+0.009334798895537646	09-知能型システム論/intelligent-systems12 segment0
+0.0049648054623260916	09-知能型システム論/intelligent-systems12 segment6
+0.011065808100789982	09-知能型システム論/intelligent-systems12 segment8

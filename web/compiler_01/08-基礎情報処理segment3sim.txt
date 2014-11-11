@@ -1,0 +1,10 @@
+0.003273550100441412	08-基礎情報処理/processing-basics-02 segment8
+0.02308317219119952	08-基礎情報処理/processing-basics-06 segment7
+0.00544001500057433	08-基礎情報処理/processing-basics-06 segment9
+0.028200857333327695	08-基礎情報処理/processing-basics-06 segment10
+0.012536843459953111	08-基礎情報処理/processing-basics-08 segment5
+0.0030280368901542784	08-基礎情報処理/processing-basics-08 segment6
+0.003488556136194688	08-基礎情報処理/processing-basics-08 segment8
+0.004367852576541399	08-基礎情報処理/processing-basics-08 segment12
+0.0025478857526671094	08-基礎情報処理/processing-basics-08 segment17
+0.008360920850602511	08-基礎情報処理/processing-basics-10 segment11
