@@ -1,58 +1,83 @@
 import "dart:html";
 import "dart:math" as math;
 
-CanvasElement canvas;
-CanvasRenderingContext2D ctx;
+CanvasElement subCanvas, mainCanvas;
+CanvasRenderingContext2D subCtx, mainCtx;
+int subset, mainset;
 
 void main() {
-  querySelector("#status").innerHtml = "Hello Dart!";
-  
   DivElement div = querySelector("#app");
   
-  canvas = new CanvasElement();
-  canvas..width = 800
-        ..height = 600;
-  ctx = canvas.context2D;
+  subCanvas = new CanvasElement();
+  subCanvas..width = 800
+           ..height = 130;
+  div.append(subCanvas);
+  subCtx = subCanvas.context2D;
   
-  div.append(canvas);
+  mainCanvas = new CanvasElement();
+  mainCanvas..width = 800
+            ..height = 470;
+  div.append(mainCanvas);
+  mainCtx = mainCanvas.context2D;
   
-  for(int i = 0; i < 5; i++){
-    String imageString = "compiler_01/${i}.png";
-    print(imageString);
-    drawImage(imageString, 5 + 125 * i, 20, 120, 80);
+  
+  subset = 5;
+  drawSubSlide("compiler_01");
+  
+  mainset = 10;
+  drawMainCanvas("compiler_01");
+  
+  subCanvas.onClick.listen(clickCanvas);
+  subCanvas.onMouseWheel.listen(wheelSubCanvas);
+}
+
+void drawSubSlide(String path){
+  if(subset > 5) subset = 5;
+  if(subset < -1000) subset = -1000;
+  drawRect(subCtx, 0, 0, 800, 130);
+  for(int i = 0; i < 9; i++){
+    ImageElement image = new ImageElement();
+    image.src = path + "/${i}.png";
+    image.onLoad.listen((e){subCtx.drawImageScaled(image, subset + 165 * i, 5, 160, 120);});
   }
-  
-  drawRect(10, 10, 120, 80);
-  drawRect(200, 200, 120, 80);
-  
-  canvas.addEventListener(canvas.onClick, clickCanvas);
+}
+
+void drawMainCanvas(String path){
+  if(mainset > 10) mainset = 10;
+  if(mainset < -1000) mainset = -1000;
+  // drawRect(mainCtx, 0, 0, 800, 670);
+  for(int i = 0; i < 9; i++){
+    ImageElement image = new ImageElement();
+    image.src = path + "/${i}.png";;
+    image.onLoad.listen((e){mainCtx.drawImageScaled(image, mainset + 600 * i, 10, 600, 450);});
+  }
 }
 
 void drawImage(String src, int x, int y, int width, int height){
-  print(src);
-  ImageElement image = new ImageElement();
-  image.src = src;
-  // イメージが読み込めてから描画する
-  image.onLoad.listen((e){ctx.drawImageScaled(image, x, y, width, height);});
 }
 
 void clickCanvas(MouseEvent e){
-  System.out.ptintln("clicl canvas");
+  int x = e.offset.x, y = e.offset.y;
+  print("click canvas ($x, $y)");
+  // drawRect(x-4, y-4, 9, 9);
 }
 
-void drawRect(int x, int y, int width, int height){
-  ctx..beginPath()
-     ..rect(x, x, width, height)
+void dragCanvas(MouseEvent e){
+  print("drag canvas (" + e.offset.x + ", " + e.client.y + ")");
+}
+
+void wheelSubCanvas(WheelEvent e){
+  double dx = e.deltaX, dy = e.deltaY;
+  print("scroll ($dx , $dy)");
+  subset += dy.toInt();
+  drawSubSlide("compiler_01");
+}
+
+void drawRect(CanvasRenderingContext2D context, int x, int y, int width, int height){
+  print("drawRect $x $y");
+  context..beginPath()
+     ..rect(x, y, width, height)
      ..fillStyle = "blue"
      ..strokeStyle = "red"
      ..fill();
-}
-
-void reverseText(MouseEvent event) {
-  var text = querySelector("#sample_text_id").text;
-  var buffer = new StringBuffer();
-  for (int i = text.length - 1; i >= 0; i--) {
-    buffer.write(text[i]);
-  }
-  querySelector("#sample_text_id").text = buffer.toString();
 }
