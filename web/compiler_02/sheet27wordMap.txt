@@ -1,0 +1,8 @@
+設定 1
+文字 1
+バッファ 1
+ファイル 1
+endfromcyytext 1
+初期 1
+ソース 1
+buftomark 1

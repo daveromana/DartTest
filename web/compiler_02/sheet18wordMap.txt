@@ -1,0 +1,6 @@
+ffffaa 1
+変換 1
+aabb 1
+baab 1
+ab 4
+bbabab 1

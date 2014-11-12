@@ -1,0 +1,17 @@
+0.010576936231459663	情報技術と倫理/lecture-note segment1
+0.04391194864976071	情報技術と倫理/lecture-note segment2
+0.0071891140998709665	情報技術と倫理/lecture-note segment7
+0.020514634524911795	情報技術と倫理/lecture-note segment9
+0.010257317262455897	情報技術と倫理/lecture-note segment14
+0.028345040970006417	情報技術と倫理/lecture-note segment16
+0.010543622963731101	情報技術と倫理/lecture-note segment18
+0.006629934991954062	情報技術と倫理/lecture-note segment26
+0.01675012894857237	情報技術と倫理/lecture-note segment27
+0.02179084404417604	情報技術と倫理/lecture-note segment31
+0.020514634524911795	情報技術と倫理/lecture-note segment34
+0.0018338370855756408	情報技術と倫理/lecture-note segment35
+0.013569155297574076	情報技術と倫理/lecture-note segment38
+0.009748368941876018	情報技術と倫理/lecture-note segment44
+0.007096347450800115	情報技術と倫理/lecture-note segment46
+0.030419253010930764	情報技術と倫理/lecture-note segment48
+0.018514903230613243	情報技術と倫理/lecture-note segment49

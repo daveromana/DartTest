@@ -1,0 +1,12 @@
+buftomark
+ 
+endfromcyytext
+ソース
+ファイル
+ 
+ 
+文字
+設定
+バッファ
+ 
+初期

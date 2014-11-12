@@ -1,0 +1,6 @@
+0.01862731338540547	情報技術と倫理/lecture-note segment1
+0.07733445782059357	情報技術と倫理/lecture-note segment2
+0.04991917787118982	情報技術と倫理/lecture-note segment16
+0.03336042393628569	情報技術と倫理/lecture-note segment26
+0.03612884846048228	情報技術と倫理/lecture-note segment34
+0.05109390748573636	情報技術と倫理/lecture-note segment45

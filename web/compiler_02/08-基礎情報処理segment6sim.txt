@@ -1,0 +1,2 @@
+0.0016144494459949265	08-基礎情報処理/processing-basics-02 segment7
+9.088426126095089E-4	08-基礎情報処理/processing-basics-06 segment7
